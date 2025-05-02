@@ -60,5 +60,4 @@ NyayaMitra uses **Retrieval-Augmented Generation (RAG)** architecture:
 
 ---
 
-## 📂 Project Structure
 
