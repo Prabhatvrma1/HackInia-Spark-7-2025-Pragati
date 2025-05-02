@@ -59,3 +59,52 @@ NyayaMitra uses **Retrieval-Augmented Generation (RAG)** architecture:
 - Post-approval, appear in the public **“Find a Lawyer”** directory
 
 ---
+## 📂 Project Structure
+
+GENERATOR/
+├── __pycache__/
+│   └── legal_notice_generator.cpython-*.pyc
+├── generated/
+├── static/
+│   └── style.css
+├── templates/
+│   └── index.html
+├── utils/
+│   ├── __pycache__/
+│   └── docx_template.docx
+├── app.py
+├── generate_notice.py
+├── legal_notice_generator.py
+
+
+
+
+front_end/
+├── node_modules/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── contexts/
+│   │   ├── data/
+│   │   │   └── lawyersData.ts
+│   │   ├── ui/
+│   │   │   ├── ContactForm.tsx
+│   │   │   ├── ContactInfo.tsx
+│   │   │   ├── Features.tsx
+│   │   │   ├── FloatingContactButton.tsx
+│   │   │   ├── Footer.tsx
+│   │   │   ├── Hero.tsx
+│   │   │   ├── InteractiveImage.tsx
+│   │   │   ├── LawyerCard.tsx
+│   │   │   ├── LoadingAnimation.tsx
+│   │   │   ├── LoadingScreen.tsx
+│   │   │   ├── Navbar.tsx
+│   │   │   ├── PageLayout.tsx
+│   │   │   ├── Process.tsx
+│   │   │   ├── ProductPlatform.tsx
+│   │   │   ├── ProjectPageLayout.tsx
+│   │   │   ├── Projects.tsx
+│   │   │   ├── SEO.tsx
+├── package.json
+├── tsconfig.json
+
